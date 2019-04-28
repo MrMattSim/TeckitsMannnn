@@ -26,7 +26,7 @@ Public Class frmTickets
                     MsgBox("You can choose a teddy bear, goldfish, ring pop, bag of marbles or a printed t-shirt!", , "Medium prize")
                 Case 100 To 999
                     MsgBox("You can choose a video game, a slice of pizza, a water bottle or an ice cream cone!", , "Large Prize")
-                Case Is >= 100
+                Case Is >= 1000
                     MsgBox("Congrats! You can choose an iPad, a laptop or an ice cube tray!", , "Crazy prize!")
             End Select
 
