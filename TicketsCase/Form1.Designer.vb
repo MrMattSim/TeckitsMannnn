@@ -29,9 +29,10 @@ Partial Class frmTickets
         '
         'btnPrize
         '
-        Me.btnPrize.Location = New System.Drawing.Point(28, 98)
+        Me.btnPrize.Location = New System.Drawing.Point(218, 311)
+        Me.btnPrize.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.btnPrize.Name = "btnPrize"
-        Me.btnPrize.Size = New System.Drawing.Size(208, 23)
+        Me.btnPrize.Size = New System.Drawing.Size(364, 42)
         Me.btnPrize.TabIndex = 0
         Me.btnPrize.Text = "Find me a cool prize!"
         Me.btnPrize.UseVisualStyleBackColor = True
@@ -39,27 +40,30 @@ Partial Class frmTickets
         'lblInstructions
         '
         Me.lblInstructions.AutoSize = True
-        Me.lblInstructions.Location = New System.Drawing.Point(30, 23)
+        Me.lblInstructions.Location = New System.Drawing.Point(52, 42)
+        Me.lblInstructions.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.lblInstructions.Name = "lblInstructions"
-        Me.lblInstructions.Size = New System.Drawing.Size(208, 17)
+        Me.lblInstructions.Size = New System.Drawing.Size(349, 29)
         Me.lblInstructions.TabIndex = 1
         Me.lblInstructions.Text = "How many tickets did you earn?"
         '
         'txtTickets
         '
-        Me.txtTickets.Location = New System.Drawing.Point(28, 56)
+        Me.txtTickets.Location = New System.Drawing.Point(49, 102)
+        Me.txtTickets.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtTickets.Name = "txtTickets"
-        Me.txtTickets.Size = New System.Drawing.Size(208, 22)
+        Me.txtTickets.Size = New System.Drawing.Size(361, 35)
         Me.txtTickets.TabIndex = 2
         '
         'frmTickets
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 29.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(265, 145)
+        Me.ClientSize = New System.Drawing.Size(867, 619)
         Me.Controls.Add(Me.txtTickets)
         Me.Controls.Add(Me.lblInstructions)
         Me.Controls.Add(Me.btnPrize)
+        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Name = "frmTickets"
         Me.Text = "Prizes!"
         Me.ResumeLayout(False)
